@@ -4,7 +4,8 @@
 # [2][3]        ;; at the bottom and build one layer at a time.
 # [4][5][6]     ;; However due to how the output is displayed we end up with the
 # [7][8][9][10] ;; example on the left - a pyramid 'built' on its side.
-# 
+#               ;; Also, height is calculated horizontally NOT vertically!!
+#
 # Prompts the user to enter an integer
 blocks = int(input("Enter the number of blocks: "))
 height = 0
